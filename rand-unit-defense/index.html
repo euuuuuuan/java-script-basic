@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Unit Defense</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="game-container">
+    <div class="game-info">
+        <h1>Random Unit Defense</h1>
+        <p class="score">Score: <span id="score">0</span></p>
+        <p class="status" id="status">Prepare for battle...</p>
+    </div>
+    <div class="game-area">
+        <div class="player-area">
+            <!-- Player's defense area -->
+        </div>
+        <div class="monster-path">
+            <!-- Monster's path -->
+        </div>
+    </div>
+    <div class="unit-selection">
+        <h3>Select Your Units</h3>
+        <div class="unit-list" id="unitList">
+            <!-- Unit selection will be dynamically populated here -->
+        </div>
+        <button id="startButton">Start Game</button>
+    </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
