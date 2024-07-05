@@ -40,3 +40,4 @@ console.log(typeof y);
 console.log(typeof Number(y));
 
 // ''같은 빈문자열이나 숫자 0도, NaN도 false로 변환된다.
+// 이러한 값들을 falsy값이라고 한다.
